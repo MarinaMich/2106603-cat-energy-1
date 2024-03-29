@@ -1,6 +1,6 @@
 .control {
   display: flex;
-  height: 26px;
+  min-height: 26px;
   align-items: center;
   position: relative;
 }
@@ -27,7 +27,7 @@
 
 @media (min-width: $tablet-width) {
   .control {
-    height: 40px;
+    min-height: 40px;
   }
 
   .control__label {
