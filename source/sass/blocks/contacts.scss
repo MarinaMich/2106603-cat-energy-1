@@ -38,7 +38,7 @@
   border: none;
   display: block;
   width: 320px;
-  min-height: 362px;
+  height: 362px;
 }
 
 @media (min-width: $tablet-width) {
@@ -70,7 +70,7 @@
 
   .contacts iframe {
     width: 768px;
-    min-height: 400px;
+    height: 400px;
   }
 }
 
@@ -97,7 +97,7 @@
 
   .contacts iframe {
     width: 100%;
-    min-height: 400px;
+    height: 400px;
   }
 
   .contacts__address {
