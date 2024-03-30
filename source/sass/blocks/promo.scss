@@ -130,9 +130,10 @@
   }
 
   .promo__img {
-    position: absolute;
-    top: 142px;
-    right: 330px;
+    position: relative;
+    top: unset;
     width: 552px;
+    margin-top: -385px;
+    margin-left: 445px;
   }
 }
