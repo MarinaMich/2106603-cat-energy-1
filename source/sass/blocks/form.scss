@@ -370,7 +370,9 @@ input[type="checkbox"]:disabled + .control__label {
   }
 
   .form__contact-imputs {
+    min-width: 1221px;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 80px;
     margin-bottom: 70px;
 
