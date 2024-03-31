@@ -60,6 +60,12 @@
     }
   }
 
+  .form__label:focus {
+    &::before {
+      border-color: $dark-grey;
+    }
+  }
+
   input[type="radio"]:disabled + .form__label {
     opacity: 0.3;
   }

@@ -8,6 +8,12 @@
 .control__label {
   padding-left: 45px;
 
+  &:focus {
+    &::before {
+      border-color: $dark-grey;
+    }
+  }
+
   &::before {
     position: absolute;
     content: "";
