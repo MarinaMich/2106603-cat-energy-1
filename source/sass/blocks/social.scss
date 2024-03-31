@@ -9,8 +9,17 @@
   @include list-reset;
   width: 132px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin: 0 auto;
+
+  .social__item {
+    width: 28px;
+
+    &:not(:nth-child(3n)) {
+      margin-right: 24px;
+    }
+  }
 }
 
 .social__link {
