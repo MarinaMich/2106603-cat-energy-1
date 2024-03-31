@@ -45,7 +45,7 @@
   line-height: 20px;
   background: linear-gradient(to top, rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url("../img/catalog/cat-catalog.png");
   background-repeat: no-repeat;
-  height: 290px;
+  min-height: 290px;
   margin: 0;
   margin-bottom: 35px;
   display: flex;
@@ -108,7 +108,7 @@
   .add-catalog__victory {
     margin: 68px 0 73px;
     flex-direction: row;
-    height: 200px;
+    min-height: 200px;
     justify-content: space-between;
     padding: 0 120px 0 75px;
   }
@@ -142,10 +142,9 @@
 
   .add-catalog__victory {
     width: 245px;
-    height: 288px;
+    min-height: 288px;
     margin: 0;
     flex-direction: column;
-    justify-content: start;
     align-items: center;
     padding: 55px 40px 40px;
   }
@@ -167,6 +166,7 @@
 
   .add-catalog__victory-img {
     margin-bottom: 50px;
+    margin-top: 0;
   }
 
   .add-catalog__victory-text {
