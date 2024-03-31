@@ -151,12 +151,12 @@
   }
 
   .add-catalog__title {
-    width: 330px;
+    margin-bottom: 0;
   }
 
   .add-catalog__link {
-    padding-top: 10px;
-    height: 40px;
+    padding: 10px 0;
+    min-height: 40px;
   }
 
   .add-catalog__descript {
