@@ -8,12 +8,6 @@
 .control__label {
   padding-left: 45px;
 
-  &:focus {
-    &::before {
-      border-color: $dark-grey;
-    }
-  }
-
   &::before {
     position: absolute;
     content: "";
@@ -23,6 +17,16 @@
     top: 0;
     left: 0;
   }
+
+  &:hover {
+    &::before {
+      border-color: #bababa;
+    }
+  }
+}
+
+input[type="checkbox"]:focus + .control__label::before {
+  border-color: $dark-grey;
 }
 
 .control__input[type="checkbox"]:checked + .control__label {

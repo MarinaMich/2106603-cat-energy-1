@@ -60,10 +60,8 @@
     }
   }
 
-  .form__label:focus {
-    &::before {
-      border-color: $dark-grey;
-    }
+  input[type="radio"]:focus + .form__label::before {
+    border-color: $dark-grey;
   }
 
   input[type="radio"]:disabled + .form__label {
@@ -187,13 +185,7 @@
   margin-bottom: 37px;
 }
 
-.control__label:hover {
-  &::before {
-    border-color: #bababa;
-  }
-}
-
-input[type="checkbox"]:disabled + .control__label {
+.form__input[type="checkbox"]:disabled + .control__label {
   opacity: 0.3;
 }
 
