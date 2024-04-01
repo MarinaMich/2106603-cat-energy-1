@@ -365,7 +365,8 @@
     min-width: 1221px;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 80px;
+    row-gap: 30px;
+    column-gap: 80px;
     margin-bottom: 70px;
 
     .form__svg {
